@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const testRouter = require('./controller/testController.js');
 
-app.listen("5000",()=>{
+app.listen("443",()=>{
     console.log(`Server has been started`)
 })
 
